@@ -77,6 +77,55 @@
       "type": "hold-resolved",
       "title": "2026-09-15 hold lifted: Section 14 stated, Section 66(b) partial wills added, script defects fixed",
       "detail": "The skill was held on 2026-09-15 over Section 14, three claimed CRITICAL gaps, script defects, and a question about shipping the will templates. Resolution: (1) The three CRITICAL gaps (s.147, s.55, s.39/s.56) were already correctly stated in both languages and in the reference, and were confirmed rather than rewritten. (2) Section 14 was the real defect, and it was an OMISSION that read as an inversion: the skill said the estate passes to 'the parents and their line, then grandparents and their line', which implies representation always operates there. s.14(a)'s closing limb disapplies representation where the deceased left a spouse together with parents or grandparents under s.11(a). Section 14 is now stated in three limbs (the rule, the carve-out, the equal split under 14(b)) plus the 2024 s.14(c)-(d) unfit-heir amendment whose default flips by line, in SKILL.md, SKILL_HE.md, references/orders-and-process.md, and a gotcha in both languages. (3) s.66(b) partial wills: the order choice was binary in the table, the prose, the troubleshooting and the script. All four now carry the both-orders case. (4) s.21(b)/22(f) prima facie evidentiary effect of deposit added, which is the actual reason to deposit and the skill had been selling it as mere safekeeping. (5) s.35's express oral-will carve-out and the regulation 4(5) scoping of the bereaved fee exemption to succession-order applicants were corrected. (6) All six script defects fixed: order gained a `partial` branch, the misleading 'a court only enters if an objection is filed' note was replaced with the five s.67a grounds (it had contradicted the skill's own correct text), witness now exits 1 on any failure, normalises whitespace before comparing, takes --beneficiary-spouses, and deduplicates witnesses before the two-witness check. (7) Templates SHIP. chok lishkat orchei hadin s.20 reserves the listed acts only when done derech isuk or bitmura; the skill is free and the Terms state the service is provided without consideration, and a published blank form the user completes is not drafting bishvil adam acher. The framing stays: a draft the user prepares for themselves, an advocate to review before signing, and the skill never asserts a produced will is valid."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "hold-resolved",
+      "title": "2026-09-15 open items closed",
+      "detail": "Section 5, s.128 creditor exposure, the family home (Land Law 37/40, Succession Law 108/110(d)/111(c)/113/115), minor heirs (Capacity Law 20(a)(1),(2),(5) and 74a), Tabu as a separate step, Example 1 reframed as a draft, script --preparers. The earlier brief's claim that a widow has 'no residence right' was WRONG: s.115 gives a paying tenancy under the statutory division rules, and s.108 a 3/6-month stay. The s.67a probate-note script bug had already been fixed on 2026-09-20."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "defect-class",
+      "title": "Repair introduced a new error: property-relations entitlement described as co-ownership",
+      "detail": "Round-1 fix for the co-owned-flat CRITICAL said a spouse 'entitled to half under the property-relations rules' keeps half the flat. That is a money claim ranked as an estate debt (s.104(a)(4)), not ownership. Caught only by re-dispatching the expert on the repair."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "defect-class",
+      "title": "Trimming for the word cap silently dropped statutory elements",
+      "detail": "Trims to stay under 5,000 words dropped the testator's date/signature from the typed-will troubleshooting answer, the 'or connected to it' limb of reg. 4(5), the incompetent-person limb of s.6(c) and 'or their representative' in s.67a. Every trim needs a judge pass."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "deferred",
+      "title": "Carried minors for next cycle",
+      "detail": "s.74a(d) exceptions (a minor aged 16+ objects; flat wholly owned by the minor goes to court unless the minor consents in writing; 60-day window), s.5(b)/(d)/(e), s.115(c)-(d) long leases. SKILL.md body sits at the 5,000-word cap: next substantive addition must move a Job 3 block to references/."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "deferred",
+      "title": "Description reword recommended by legal gate",
+      "detail": "Legal review (PASS_WITH_CHANGES) recommended 'Prepare a draft Israeli will ... for advocate review' in the frontmatter description and metadata display_description. Not applied this cycle to avoid a description change (Phase 5.7 holdout) in a batch; the enriched when_to_apply and the first prompt were fixed in the DB instead."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "note",
+      "title": "kolzchut verification method",
+      "detail": "kolzchut blocks curl and headless Chromium; a headed Chrome (Playwright channel 'chrome', headless:false) with a FRESH browser per URL passes the Cloudflare check. Reusing one browser fails after the first page."
+    },
+    {
+      "date": "2026-10-01",
+      "version": "1.4.0",
+      "type": "note",
+      "title": "v1.2.0 tag",
+      "detail": "The 2026-08-09 v1.2.0 signed tag was never cut. Not back-filled: tags after it (v1.3.0, v1.4.0) are the attested releases."
     }
   ]
 }

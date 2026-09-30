@@ -6,18 +6,21 @@ from the Succession Law so an agent does not get them backwards:
 
 1. order  -- which inheritance order to request (succession, probate, or BOTH where the
    will covers only part of the property, Section 66(b)).
-2. witness -- whether a proposed witness is disqualified under Section 35 because they,
-   or their spouse, are a beneficiary of the will.
+2. witness -- whether Section 35 would void a bequest because a witness, or a person who
+   wrote the will or took part in making it (--preparers), is a beneficiary or the spouse
+   of a beneficiary. It compares NAMES only: it cannot know a relationship it was not
+   told about, and it cannot check a witness's age or capacity (Section 24).
 
-Exit codes: the witness check exits 1 when it finds a disqualified witness, a duplicate
-witness, or fewer than two distinct witnesses, so a caller can branch on the result.
+Exit codes: the witness check exits 1 when a bequest would be void under Section 35, a
+witness is duplicated, or there are fewer than two distinct witnesses, so a caller can branch on the result.
 
 Usage:
   python3 scripts/inheritance_helper.py order --has-will yes
   python3 scripts/inheritance_helper.py order --has-will no
   python3 scripts/inheritance_helper.py order --has-will partial
   python3 scripts/inheritance_helper.py witness --beneficiaries "דנה כהן,יוסי לוי" \
-      --beneficiary-spouses "רות לוי" --witnesses "השכן רון,ד״ר אבני"
+      --beneficiary-spouses "רות לוי" --witnesses "השכן רון,ד״ר אבני" \
+      --preparers "יוסי לוי"
 """
 
 import argparse
@@ -83,10 +86,12 @@ def cmd_order(has_will: str) -> int:
     return 0
 
 
-def cmd_witness(beneficiaries: str, witnesses: str, beneficiary_spouses: str) -> int:
+def cmd_witness(beneficiaries: str, witnesses: str, beneficiary_spouses: str,
+                preparers: str = "") -> int:
     bens = set(split_names(beneficiaries))
     spouses = set(split_names(beneficiary_spouses))
     wits = split_names(witnesses)
+    preps = set(split_names(preparers))
 
     failed = False
 
@@ -115,33 +120,44 @@ def cmd_witness(beneficiaries: str, witnesses: str, beneficiary_spouses: str) ->
     bad_ben = [w for w in distinct if w in bens]
     bad_spouse = [w for w in distinct if w in spouses]
 
+    bad_prep = sorted(p for p in preps if p in bens or p in spouses)
+
     if bad_ben:
         failed = True
-        print(f"INVALID witnesses (they are beneficiaries): {', '.join(bad_ben)}")
+        print(f"VOID bequest: these witnesses are beneficiaries: {', '.join(bad_ben)}")
     if bad_spouse:
         failed = True
         print(
-            "INVALID witnesses (they are the spouse of a beneficiary): "
+            "VOID bequest: these witnesses are the spouse of a beneficiary: "
             f"{', '.join(bad_spouse)}"
         )
+    if bad_prep:
+        failed = True
+        print(
+            "VOID bequest: these people took part in preparing the will and are a "
+            f"beneficiary or a beneficiary's spouse: {', '.join(bad_prep)}"
+        )
 
-    if bad_ben or bad_spouse:
+    if bad_ben or bad_spouse or bad_prep:
         print("Section 35: a bequest in favour of whoever wrote the will, witnessed it, or")
         print("otherwise took part in making it, or in favour of that person's spouse, is void.")
-        print("Fix: use neutral adult witnesses who inherit nothing.")
+        print("Section 35 does not apply to an oral will (צוואה בעל פה).")
+        print("Fix: neutral adult witnesses who inherit nothing, and a preparer who inherits")
+        print("nothing. Have an advocate review the draft before anyone signs.")
 
     if failed:
         print("result: FAIL")
         return 1
 
-    print("witnesses look OK on the Section 35 rule as far as the names given go.")
-    print(f"checked {len(distinct)} distinct witnesses against {len(bens)} beneficiaries "
-          f"and {len(spouses)} beneficiary spouses.")
+    print("no Section 35 conflict among the NAMES given. This is not a finding that the")
+    print("will is valid.")
+    print(f"checked {len(distinct)} distinct witnesses and {len(preps)} preparers against "
+          f"{len(bens)} beneficiaries and {len(spouses)} beneficiary spouses.")
     print("Still confirm by hand: each witness is an adult and not פסול דין (Section 24);")
-    print("no witness took part in preparing the will; and every beneficiary's spouse was")
-    print("passed in --beneficiary-spouses, because this check can only compare the names")
-    print("it was given. Name matching is exact after whitespace normalisation, so a")
-    print("nickname or a missing surname will not be caught.")
+    print("every person who wrote or helped prepare the will was passed in --preparers;")
+    print("and every beneficiary's spouse was passed in --beneficiary-spouses. Matching is")
+    print("exact after whitespace normalisation, so a nickname or a missing surname, or a")
+    print("spouse you did not list, will not be caught.")
     return 0
 
 
@@ -160,12 +176,18 @@ def main() -> int:
         default="",
         help="comma-separated names of the beneficiaries' spouses (Section 35)",
     )
+    w.add_argument(
+        "--preparers",
+        default="",
+        help="comma-separated names of anyone who wrote the will or took part in making it",
+    )
 
     args = p.parse_args()
     if args.cmd == "order":
         return cmd_order(args.has_will)
     if args.cmd == "witness":
-        return cmd_witness(args.beneficiaries, args.witnesses, args.beneficiary_spouses)
+        return cmd_witness(args.beneficiaries, args.witnesses, args.beneficiary_spouses,
+                           args.preparers)
     return 1
 
 

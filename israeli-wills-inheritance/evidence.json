@@ -1,7 +1,7 @@
 {
   "skill_slug": "israeli-wills-inheritance",
   "schemaVersion": "1.0",
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-10-01T00:00:00Z",
   "claims": [
     {
       "id": "witnessed-will-no-lawyer",
@@ -10,16 +10,21 @@
       "source_url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "ניתן לערוך צוואה בעדים ללא צורך בנוכחותו או בחתימתו של עורך-דין",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "witnessed-will-procedure",
-      "claim": "For a witnessed will the testator declares before two witnesses that this is their will and signs it by hand in front of the two witnesses",
+      "claim": "For a witnessed will the testator, after declaring before two witnesses that this is their will, signs it by hand in front of the two witnesses",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
       "source_fetched_at": "2026-06-18T00:00:00Z",
-      "raw_snippet": "על המצווה להצהיר בפני שני עדים...חותם המצווה על הצוואה בכתב ידו בפני שני העדים",
-      "confidence": "high"
+      "raw_snippet": "לאחר ההצהרה, חותם המצווה על הצוואה בכתב ידו בפני שני העדים",
+      "confidence": "high",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "witness-cannot-be-beneficiary",
@@ -28,7 +33,9 @@
       "source_url": "https://www.kolzchut.org.il/he/צוואה_בעדים",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "לעדים, ולבני/בנות זוגם, אסור להיות חלק מהנהנים מהצוואה",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "four-will-types",
@@ -37,7 +44,9 @@
       "source_url": "https://www.kolzchut.org.il/he/צוואה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "החוק קובע 4 דרכים אפשריות שבהן אדם יכול לערוך צוואה, כך שיהיה לה תוקף משפטי מחייב",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "deposit-optional",
@@ -46,7 +55,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "הפקדת צוואה היא רשות - אין חובה להפקיד את הצוואה כדי שתהיה תקפה",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "succession-order-no-will",
@@ -55,7 +66,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "כדי שיורש יוכל לקבל את חלקו מתוך העיזבון (ירושה) של המנוח, יש להגיש בקשה המכונה",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "probate-order-with-will",
@@ -64,7 +77,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_קיום_צוואה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "צו קיום צוואה נדרש כדי לחלק את העיזבון כפי שרשום בהוראות צוואה ולתת תוקף מחייב להוראות הצוואה",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "order-fees-2026-opening",
@@ -73,7 +88,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "אגרת פתיחת בקשה - 507 ₪ (נכון ל-2026).",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "order-fees-2026-publication",
@@ -82,18 +99,20 @@
       "source_url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "אגרת הוצאות פרסום - 66 ₪ (נכון ל-2026).",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "registrar-portal",
-      "claim": "The Inheritance Registrar runs an online portal for inheritance applications",
+      "claim": "The Inheritance Registrar runs an online portal (הרשם לענייני הירושה Online) where succession-order and probate-order applications are filed",
       "claim_type": "url",
       "source_url": "https://inheritance.justice.gov.il/",
       "source_fetched_at": "2026-08-01T00:00:00Z",
-      "raw_snippet": "הרשם לענייני ירושה אונליין",
+      "raw_snippet": "הגשת בקשה לצו ירושה",
       "confidence": "high",
       "verified_via": "browser",
-      "verified_at": "2026-08-01"
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "section-20-full",
@@ -165,7 +184,9 @@
       "source_url": "https://www.kolzchut.org.il/he/התנגדות_למתן_צו_ירושה",
       "source_fetched_at": "2026-06-18T00:00:00Z",
       "raw_snippet": "יש להגיש את ההתנגדות בתוך 14 ימים מהיום שפורסמה ההודעה ובתנאי שטרם ניתן הצו",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "section-25-cure",
@@ -408,7 +429,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "אישור על תשלום אגרה בסך 126 ₪ (נכון ל-2026) עבור הפקדת צוואה - אם לא עברו 5 שנים מהפקדת צוואה קודמת",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "deposit-in-person-or-online",
@@ -417,7 +440,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "ההפקדה יכולה להתבצע בהתייצבות אישית בלשכת הרשם לענייני ירושה",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "deposit-withdrawal-not-revocation",
@@ -426,7 +451,9 @@
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "קבלת הצוואה בחזרה אינה מביאה לביטול הצוואה, והיא תקפה לכל דבר ועניין עד ש",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "deposit-one-at-a-time",
@@ -435,16 +462,20 @@
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "מי שהפקיד בעבר צוואה אינו רשאי להפקיד צוואה נוספת, אלא אם לפני כן לקח בחזרה כל צוואה קודמת שהפקיד.",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "deposit-opened-after-3-months",
-      "claim": "If no application concerning the will is filed, the Inheritance Registrar opens the will three months after the death and notifies the beneficiaries named in it. Anyone holding a will must deliver it as soon as they learn of the testator death, and failing to do so is a criminal offence",
+      "claim": "If no application concerning the will is filed, the Inheritance Registrar opens the will three months after the death and notifies the beneficiaries named in it",
       "claim_type": "law",
       "source_url": "https://www.kolzchut.org.il/he/הפקדת_צוואה_אצל_רשם_הירושה_במשרד_המשפטים",
       "source_fetched_at": "2026-08-01T00:00:00Z",
       "raw_snippet": "אם לא הוגשה כל בקשה בעניין הצוואה, הרשם לענייני ירושה יפתח את הצוואה לאחר 3 חודשים ממועד הפטירה, וימסור הודעה על קיומה לזוכים",
-      "confidence": "high"
+      "confidence": "high",
+      "verified_via": "browser",
+      "verified_at": "2026-10-01T00:00:00Z"
     },
     {
       "id": "section-7-forfeits-disclaimer",
@@ -629,6 +660,418 @@
       "raw_snippet": "הרשם מנפיק צו דיגיטלי הנשלח אוטומטית לכתובת הדואר האלקטרוני (למייל) של מגיש הבקשה או עורך הדין שמייצג אותו. לאחר הגשת בקשה לפעולה, מועבר הצו הדיגיטלי ישירות ע\"י הרשם גם לבנקים, חברות הביטוח וגופי הממשלה הרלוונטיים, כגון לשכת רישום המקרקעין (ה\"טאבו\"), משרד התחבורה, רשות מנהל מקרקעי ישראל, רשות המיסים, רשות התאגידים ועוד.",
       "confidence": "high",
       "source_note": "מדריך לזוכיו של מנוח שהותיר צוואה, האפוטרופוס הכללי והממונה על ענייני ירושה, תשפ\"ד-2023, section 'איך ולמי מועבר צו קיום צוואה?'. Snippet is word-for-word from the PDF text layer; comma and period positions are normalised because pdftotext misorders them inside RTL runs."
+    },
+    {
+      "id": "section-5-unfit-heir",
+      "claim": "Section 5 (סעיף 5): an heir is unfit to inherit if they caused the deceased's death intentionally or with indifference, were convicted of attempting to, or were convicted of concealing, destroying or forging the last will or claiming under a forged will",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "מי שהורשע על שהעלים או שהשמיד את צוואתו האחרונה של המוריש, או שזייף אותה, או שתבע על פי צוואה מזוייפת",
+      "confidence": "high"
+    },
+    {
+      "id": "section-5c-court-may-limit",
+      "claim": "Section 5(c): the court may limit or disapply the unfitness where satisfied it was the deceased's wish",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "raw_snippet": "לקבוע כי הפסלות לרשת תחול רק על חלק מהזכות לרשת את המוריש או שלא תחול כלל",
+      "confidence": "high"
+    },
+    {
+      "id": "section-21b-deposit-evidence",
+      "claim": "Section 21 (סעיף 21(ב)): a will deposited and kept on deposit until the testator's death is prima facie evidence that the named testator made it and that it was made no later than the day of deposit",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "raw_snippet": "צוואה שהופקדה ונשמרה בפקדון לפי סעיף זה עד מותו של המצווה תהיה ראיה לכאורה שהאדם הנקוב בה כמצווה עשה את הצוואה ושנעשתה לכל המאוחר ביום ההפקדה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-66-partial-order",
+      "claim": "Section 66 (סעיף 66(ב)): where the deceased willed part of their property, a probate order is given over that part and a succession order over the remainder",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "scripts/inheritance_helper.py",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "ציווה המוריש חלק מנכסיו, יינתן על אותו חלק צו קיום, ועל הנותר",
+      "confidence": "high"
+    },
+    {
+      "id": "regulation-4-5-bereaved-exemption",
+      "claim": "Regulation 4(5) (תקנה 4): an applicant for a succession order, or an application connected to one, who is the spouse, child, father, mother or sibling of a person who died in war operations, as a hostile-act casualty or in military service, is exempt from the fee",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "מגיש בקשה למתן צו ירושה או בקשר אליו, שהוא בן זוגו, ילדו, אביו, אמו או אחיו של מי שנפטר",
+      "confidence": "high"
+    },
+    {
+      "id": "section-108-transitional-stay",
+      "claim": "Section 108 (סעיף 108(א)): whoever lived with the deceased in their flat may continue living there three months, and an heir six months, after the death",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "רשאי להוסיף ולגור בה שלושה חדשים, ואם היה יורש – ששה חדשים לאחר מות המוריש",
+      "confidence": "high"
+    },
+    {
+      "id": "section-115a-tenancy",
+      "claim": "Section 115 (סעיף 115(א)): the spouse, children and parents who lived with the deceased-owner in the flat may continue living there as tenants of the heirs who receive it, with rent, period and terms by agreement or fixed by the court",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "רשאים בן־זוגו, ילדיו והוריו שהיו גרים בה אותה שעה עם המוריש, להוסיף ולגור בה כשוכרי היורשים שבחלקם נפלה הדירה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-115b-limit",
+      "claim": "Section 115(b): the court may order that only those with no other flat keep living there",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "raw_snippet": "שיוסיפו לגור בדירה רק אלה שאין להם דירה אחרת למגורים",
+      "confidence": "high"
+    },
+    {
+      "id": "section-111c-statutory-rules",
+      "claim": "Section 111 (סעיף 111(ג)): the court follows the will's distribution directions unless there are special reasons, and applies the rules of sections 112 to 117 only where the will gives none",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "raw_snippet": "באין הוראות כאלה בצוואת המוריש, ינהג בית המשפט לפי הכללים",
+      "confidence": "high"
+    },
+    {
+      "id": "section-126-before-division",
+      "claim": "Section 126 (סעיף 126): until the estate is divided, heirs are liable for its debts only out of estate assets",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "עד לחלוקת העזבון אין היורשים אחראים לחובות העזבון אלא בנכסי העזבון",
+      "confidence": "high"
+    },
+    {
+      "id": "section-127a-after-invitation",
+      "claim": "Section 127 (סעיף 127(א)): after dividing having invited creditors under Section 99 or 123 and paid the known debts, an heir is liable for an unpaid debt only if proved they knew of it and only up to what they received",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "אין יורש אחראי לחובות שלא סולקו אלא אם הוכח שידע עליהם בזמן החלוקה ועד כדי שוויו של מה שקיבל מן העזבון",
+      "confidence": "high"
+    },
+    {
+      "id": "section-123-creditor-invitation",
+      "claim": "Section 123 (סעיף 123) and Section 99: the creditor invitation is published publicly with a period of at least three months",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "ההזמנה תפורסם ברבים ולמתן ההודעה תיקבע תקופה של שלושה חדשים לפחות מיום הפרסום",
+      "confidence": "high"
+    },
+    {
+      "id": "section-128a-whole-estate",
+      "claim": "Section 128 (סעיף 128(א)): where the estate was divided without inviting creditors and without paying debts known at the time, each heir is liable for the unpaid debts up to the value of the whole estate at the time of division; an heir who proves they did not know of a particular debt at the time is liable for it only up to what they received",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "אחראי כל יורש לחובות שלא סולקו כדי שוויו של כל העזבון בזמן החלוקה; אולם אם הוכיח שלא ידע על חוב פלוני בזמן החלוקה, יהיה אחראי לו רק כדי שוויו של מה שקיבל מן העזבון",
+      "confidence": "high"
+    },
+    {
+      "id": "section-30-undue-influence",
+      "claim": "Section 30 (סעיף 30): a will provision made under duress, threat, undue influence, trickery or fraud is void",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "הוראת צוואה שנעשתה מחמת אונס, איום, השפעה בלתי הוגנת, תחבולה או תרמית",
+      "confidence": "high"
+    },
+    {
+      "id": "section-6c-minor-disclaimer",
+      "claim": "Section 6 (סעיף 6(ג)): a disclaimer by a minor or a person declared legally incompetent requires court approval",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "הסתלקות של קטין ושל מי שהוכרז פסול־דין טעונה אישור בית המשפט",
+      "confidence": "high"
+    },
+    {
+      "id": "land-law-37a-partition",
+      "claim": "Land Law Section 37 (חוק המקרקעין סעיף 37(א)): every co-owner of jointly-owned land may demand dissolution of the co-ownership at any time",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "כל שותף במקרקעין משותפים זכאי בכל עת לדרוש פירוק השיתוף",
+      "confidence": "high"
+    },
+    {
+      "id": "land-law-40a-sale",
+      "claim": "Land Law Section 40 (סעיף 40(א)): land that cannot be divided is partitioned by selling it and dividing the proceeds",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "יהיה פירוק השיתוף בדרך של מכירת המקרקעין וחלוקת הפדיון",
+      "confidence": "high"
+    },
+    {
+      "id": "capacity-law-20-minor-flat",
+      "claim": "Legal Capacity and Guardianship Law Section 20 (סעיף 20): parents may not represent a minor, without advance approval, in transferring, charging, dividing or liquidating a flat, or in an act whose validity depends on registration in a statutory register",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הכשרות_המשפטית_והאפוטרופסות",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "העברה, שעבוד, חלוקה או חיסול של יחידה משקית בחקלאות, בתעשיה, במלאכה או במסחר, או של דירה",
+      "confidence": "high"
+    },
+    {
+      "id": "capacity-law-74a-public-trustee",
+      "claim": "Legal Capacity and Guardianship Law Section 74א (סעיף 74א), added by the 2024 amendment: an approval request under Section 20 is filed with the Public Trustee, which may approve it or pass it to the court",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הכשרות_המשפטית_והאפוטרופסות",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "לא מצא האפוטרופוס הכללי לנכון לאשר בקשה כאמור, יעבירה לבית המשפט",
+      "confidence": "high"
+    },
+    {
+      "id": "section-128b-burden",
+      "claim": "Section 128(b): the burden of proving the value of the estate, or of what the heir received, is on the heir",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "הוכחת שוויו של העזבון או של מה שיורש קיבל מן העזבון – על היורש",
+      "confidence": "high"
+    },
+    {
+      "id": "section-113-highest-bidder",
+      "claim": "Section 113 (סעיף 113(א)): an indivisible estate asset is given to the heir who offers the highest price, not below market value, credited against that heir's share; it is sold only if no heir wants it",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "יימסר ליורש המרבה במחירו, ובלבד שלא יפחת ממחיר השוק",
+      "confidence": "high"
+    },
+    {
+      "id": "section-113b-sale",
+      "claim": "Section 113(b): if no heir agrees to take the asset, it is sold and the proceeds divided",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "לא הסכים אף יורש אחד לרכוש את הנכס כאמור בסעיף קטן (א), יימכר הנכס ודמי המכר יחולקו",
+      "confidence": "high"
+    },
+    {
+      "id": "section-110d-agreement",
+      "claim": "Section 110 (סעיף 110(ד)): where the heirs divide the estate by agreement, sections 112 to 117 do not apply",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "מתחלקים נכסי העזבון על פי הסכם בין היורשים, לא יחולו הוראות הסעיפים 112 עד 117",
+      "confidence": "high"
+    },
+    {
+      "id": "section-42-successive-heir",
+      "claim": "Section 42 (סעיף 42(א)): a testator may bequeath to two persons so that the second takes after the first",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "המצווה רשאי לצוות לשניים על מנת שיזכה השני אחרי שזכה הראשון",
+      "confidence": "high"
+    },
+    {
+      "id": "land-law-40b-manner",
+      "claim": "Land Law Section 40(b): the sale is by the manner of execution sales unless the court orders another way",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_המקרקעין",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "המכירה תהיה בדרך שנמכרים מקרקעין מעוקלים בהוצאה לפועל, זולת אם הורה בית המשפט על דרך אחרת",
+      "confidence": "high"
+    },
+    {
+      "id": "capacity-law-20a5-parents",
+      "claim": "Legal Capacity and Guardianship Law Section 20(a)(5): a legal act between the minor and the parents or the parents' relatives needs advance approval, except receiving gifts",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הכשרות_המשפטית_והאפוטרופסות",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md",
+        "references/orders-and-process.md",
+        "references/domain-checklist.md"
+      ],
+      "raw_snippet": "פעולה משפטית בין הקטין לבין הוריו או קרובי הוריו, זולת קבלת מתנות הניתנות לקטין",
+      "confidence": "high"
+    },
+    {
+      "id": "section-75-hand-over-will",
+      "claim": "Section 75 (סעיף 75(א)): whoever holds a will must deliver it, in the original or a certified copy, to the Inheritance Registrar immediately after learning of the testator's death",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "SKILL.md",
+        "SKILL_HE.md"
+      ],
+      "raw_snippet": "מי שיש בידו צוואה חייב למסרה, במקור או בהעתק מאושר, לרשם לעניני ירושה מיד לאחר שנודע לו על מות המצווה",
+      "confidence": "high"
+    },
+    {
+      "id": "section-42b-first-heir",
+      "claim": "Section 42(b): the first heir may deal with what they received as their own, and the second takes only what the first left",
+      "claim_type": "law",
+      "source_url": "https://he.wikisource.org/wiki/חוק_הירושה",
+      "source_fetched_at": "2026-10-01T00:00:00Z",
+      "fetched_at": "2026-10-01T00:00:00Z",
+      "appears_in": [
+        "references/orders-and-process.md"
+      ],
+      "raw_snippet": "הראשון רשאי לעשות במה שקיבל כבתוך שלו, והשני לא יזכה אלא במה ששייר הראשון",
+      "confidence": "high"
     }
   ]
 }

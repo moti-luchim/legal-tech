@@ -39,11 +39,17 @@ Scope: help an Israeli (1) draft a will in the statutory form (focus on the witn
 - Complex estates (business interests, trusts, minors' guardianship clauses): recommend a lawyer; the witnessed-will draft is for straightforward bequests.
 - Israeli tax computation on the SALE of an inherited asset (מס שבח rates, heir reliefs): name the exposure and route to a tax professional, do not compute it here.
 
-## Deliberately deferred (logged, not yet covered)
-- Section 5 יורש פסול (disqualification of an heir who caused the death or destroyed / forged the will).
-- The estate-debts chapter (Sections 104, 126, 127, 128) and the creditor-invitation procedure that limits heirs' post-distribution exposure.
-- Registering heirs' rights in the Land Registry (Tabu) as a separate application after the order issues.
-See `optimization-log.json` lessons for why these were held back.
+## Added 2026-10-01 (v3)
+- [ ] Section 5 unfit heir (caused the death, attempted and convicted, concealed / destroyed / forged the last will), with the court's power to limit it. source: חוק הירושה סעיף 5. why: the first question when a will surfaces in one heir's possession.
+- [ ] Estate debts after the order: Section 126 (liability out of estate assets before division), 127(a) (after inviting creditors, only known debts and up to what the heir received), 128(a) (without inviting creditors, up to the value of the WHOLE estate, except for a debt the heir proves they did not know of, which is capped at what they received; 128(b) burden on the heir). source: חוק הירושה. why: a family that quietly splits the money is exposed well beyond its share. Detailed administration routes to israeli-estate-settlement-navigator.
+- [ ] The family home after the order: FIRST, only the deceased's share is in the estate (a registered co-owner spouse keeps their own share; a property-relations claim is a money debt of the estate under 104(a)(4), not co-ownership); Section 113 lets an heir take an indivisible asset at no less than market value; Sections 112-117 yield to a will's directions (111(c)) and do not apply to a division by agreement (110(d)); any co-owner may demand dissolution of co-ownership at any time (חוק המקרקעין סעיף 37(א)), an indivisible flat is sold (סעיף 40(א)); the survivor's statutory protection is the Section 108(a) transitional stay (3 months, 6 for an heir) and the Section 115(a) tenancy of the heirs at an agreed or court-fixed rent, which the court may limit under 115(b). There is NO free life interest for a widow or widower unless the will grants one. why: the most consequential post-death question for a second-marriage family.
+- [ ] Minor heirs: Legal Capacity and Guardianship Law Section 20 (advance approval for a minor's flat, a registration-dependent act, or any legal act between the minor and the parents or their relatives, 20(a)(5)), routed since the 2024 amendment first to the Public Trustee under Section 74א; Succession Law Section 6(c) court approval for a minor's disclaimer. why: parents otherwise assume they can simply divide.
+- [ ] Tabu registration of heirs is a separate request after the order; route details to israeli-estate-settlement-navigator.
+
+## Out of scope (re-litigated 2026-10-01)
+- Enduring power of attorney: still out, a user asking is routed to israeli-elder-care-navigator by name, which answers them.
+- Contested-estate litigation and appointing an estate administrator: still out; the skill states the four post-order traps and routes to a lawyer and to israeli-estate-settlement-navigator.
+- Foreign estate tax: still out, no capturable Israeli figure exists for it.
 
 ## Authoritative sources
 - https://www.kolzchut.org.il/he/צוואה_בעדים : witnessed-will requirements and witness disqualification.
@@ -52,6 +58,6 @@ See `optimization-log.json` lessons for why these were held back.
 - https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה : succession order, fees.
 - https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_קיום_צוואה : probate order.
 - https://inheritance.justice.gov.il/ : the Inheritance Registrar online portal.
-- https://he.wikisource.org/wiki/חוק_הירושה : full statute text (sections 6, 8, 8א, 11, 19, 20, 22, 23, 25, 27, 36, 39, 55, 67, 67א, 104, 147, 155).
+- https://he.wikisource.org/wiki/חוק_הירושה : full statute text (sections 5, 6, 8, 8א, 11, 19, 20, 22, 23, 25, 27, 30, 36, 39, 55, 67, 67א, 104, 108, 115, 126, 127, 128, 147, 155); https://he.wikisource.org/wiki/חוק_המקרקעין (sections 37, 40); https://he.wikisource.org/wiki/חוק_הכשרות_המשפטית_והאפוטרופסות (sections 20, 74א).
 - https://he.wikisource.org/wiki/תקנות_הירושה_%28אגרות_הרשם_לעניני_ירושה%29 : the full fee schedule, the 85% online rule, the 1 January indexation, the exemptions.
 - https://he.wikisource.org/wiki/חוק_מס_עזבון : confirms the estate tax repeal for deaths after 31 March 1981.
