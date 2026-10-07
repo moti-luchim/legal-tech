@@ -56,21 +56,21 @@ python3 scripts/claim_check.py cancel --type distance --received 2026-10-01 --pr
 python3 scripts/claim_check.py cancel --type instore --goods listed --received 2026-10-01 --price 900
 ```
 
-**Track A, technician law (CPL s.18A).** Covers ONLY: warranty work (including extended warranty), service that depends on equipment at the consumer's home, installation or removal, periodic home gas inspections, delivery of goods the dealer sold, and paid continuing repair contracts. A one-off paid call-out (a plumber or electrician the user hired once) is not on the list, so the fixed amounts do not apply to it.
+**Track A, technician law (CPL s.18A).** Covers ONLY: warranty work (including extended warranty), service that depends on equipment at the consumer's home, installation or removal of goods the same dealer sold, rented or lent, periodic home gas inspections, delivery of goods the dealer sold, and paid continuing repair contracts. A one-off paid call-out (a plumber or electrician the user hired once) is not on the list, so the fixed amounts do not apply to it.
 
 | Rule | Value |
 |---|---|
 | Waiting window | No more than two hours past the coordinated time (s.18A(c)(2)) |
 | Visiting hours (warranty, equipment service, installation, gas) | 8:00 to 19:00 on weekdays, 8:00 to 13:00 on Fridays and holiday eves |
-| Valid postponement | Notice no later than 20:00 the evening before |
+| Valid postponement | Notice no later than 20:00 the evening before, with a new agreed date and hour, and only if it does not push the service past its legal deadline (s.18A(c)(3)). It does not cancel the right: lateness is then counted from the NEW agreed hour |
 | NIS 300 | Once two hours have passed BEYOND the two-hour waiting window |
 | NIS 600 | Once three hours have passed beyond the waiting window |
 | NIS 300 | For breaching the "wait for our call" alternative rules (instead of a coordinated hour) |
 | Proof | No proof of damage needed |
 | In kind | A voucher or service instead of cash only if the consumer was told they may choose cash and agreed; the provider must prove it |
-| Defence | No compensation if the delay came from circumstances the provider could not know of, foresee or prevent (s.18A(f)) |
+| Defence | No compensation if the delay came from circumstances the provider did not know of, and should not have known of, when the appointment was set, or could not have foreseen, AND could not prevent (s.18A(f)) |
 
-So for a 10:00 appointment, arrival at 12:00 is lawful, NIS 300 is owed from 14:00, and NIS 600 from 15:00. If nobody came at all, NIS 600 applies once 15:00 passed, provided the user was home until then or can show nobody was sent (for example, the company's own record). A user who left at 11:00 cannot know whether a lawful arrival came later. The statute counts from "the hour that was coordinated". If the company gave a range instead of an hour, say so to the user and show the figure counted from the end of the range as the safer claim.
+So for a 10:00 appointment, arrival at 12:00 is lawful, NIS 300 is owed from 14:00, and NIS 600 from 15:00. If nobody came at all, NIS 600 applies once 15:00 passed. The right depends on the time passing, not on the user staying home, but the user has to be able to show nobody came: being home until then, the company's own record, or a call log. A user who left at 11:00 cannot know whether the technician came at 12:30, so ask. The statute counts from "the hour that was coordinated". If the company gave a range instead of an hour, say so to the user and show the figure counted from the end of the range as the safer claim.
 
 **Track B, cancellation.**
 
@@ -157,7 +157,7 @@ Email with a read receipt, the company's website form (screenshot the confirmati
 ### No-show technician
 
 User: "The cable company set a technician for 10:00, nobody came, I waited until 17:00."
-Track A: a converter or router service is a covered category. Nobody came at all, so once 15:00 passed the full NIS 600 is owed. Ask whether a postponement SMS arrived by 20:00 the previous evening. Draft a demand for NIS 600 in cash or as a bill credit, seven-day deadline, Consumer Council then small claims as escalation. Do not add exemplary damages.
+Track A: a converter or router service is a covered category. Nobody came at all, so once 15:00 passed the full NIS 600 is owed. Ask whether a postponement SMS with a new agreed time arrived by 20:00 the previous evening; if so, count from the new time. Draft a demand for NIS 600 in cash or as a bill credit, seven-day deadline, Consumer Council then small claims as escalation. Do not add exemplary damages.
 
 ### Elderly parent, phone call then a home visit
 

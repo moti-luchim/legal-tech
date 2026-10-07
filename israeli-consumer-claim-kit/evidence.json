@@ -41,11 +41,11 @@
     },
     {
       "id": "tech-postpone-2000",
-      "claim": "s.18A(c)(3): provider may postpone a visit by notice no later than 20:00 the evening before",
+      "claim": "CPL s.18A(c)(3): the provider may postpone by notice no later than 20:00 the evening before and set a new date and hour, provided the postponement does not push the service past its legal deadline",
       "claim_type": "threshold",
       "source_url": "https://he.wikisource.org/wiki/%D7%97%D7%95%D7%A7_%D7%94%D7%92%D7%A0%D7%AA_%D7%94%D7%A6%D7%A8%D7%9B%D7%9F",
       "source_fetched_at": "2026-10-07T12:00:00Z",
-      "raw_snippet": "נותן השירות רשאי להודיע לצרכן, לא יאוחר משעה 20:00 בערב שקדם למועד הביקור שתואם, על דחיית הביקור",
+      "raw_snippet": "נותן השירות רשאי להודיע לצרכן, לא יאוחר משעה 20:00 בערב שקדם למועד הביקור שתואם, על דחיית הביקור, ולתאם עמו מועד ושעה חדשים לביקור, ובלבד שאין בדחיה כאמור כדי לדחות את מתן השירות מעבר לפרק הזמן שנקבע לכך לפי דין",
       "confidence": "high"
     },
     {

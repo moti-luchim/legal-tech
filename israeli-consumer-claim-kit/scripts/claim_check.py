@@ -38,7 +38,7 @@ MAX_PLAUSIBLE_LATE_H = 12  # sanity guard against AM/PM and early-arrival typos
 COVERED = {
     "warranty": "warranty or extended-warranty work",
     "equipment": "a service that depends on equipment at your home (converter, router)",
-    "installation": "installing or removing goods sold, rented or lent",
+    "installation": "installing or removing goods the same dealer sold, rented or lent",
     "gas": "a periodic home gas-installation inspection",
     "delivery": "delivery of goods the dealer sold",
     "repair-contract": "a paid continuing repair contract",
@@ -70,8 +70,8 @@ def technician(a: argparse.Namespace) -> None:
     if a.phone_alternative:
         print("You were offered 'wait for our call' instead of a coordinated hour. If you were not "
               "told you may refuse it, or the wait at home exceeded two hours, the compensation "
-              f"is NIS {PHONE_RULE_NIS} (s.18A(d)(2)). The 300/600 time tiers below assume a "
-              "coordinated hour.")
+              f"is NIS {PHONE_RULE_NIS} (s.18A(d)(2)). The 300/600 time tiers apply only when an "
+              "hour was coordinated.")
         print(FOOTER)
         return
 
@@ -79,9 +79,9 @@ def technician(a: argparse.Namespace) -> None:
     if a.no_show:
         print(f"Coordinated time: {a.coordinated}. Nobody came.")
         print(f"Once five hours passed after the coordinated time with no visit (two-hour window "
-              f"plus three), the statutory compensation is NIS {TIER_2_NIS}, provided you were home "
-              "until then or can show nobody was sent. If you left earlier, a lawful late arrival "
-              "may have come after you left.")
+              f"plus three), the statutory compensation is NIS {TIER_2_NIS}. Keep evidence that "
+              "nobody came (you were home, the company's record, a call log); if you left early, "
+              "check whether they came after you left.")
         amount = TIER_2_NIS
     else:
         arr = _hm(a.arrived)
@@ -114,9 +114,11 @@ def technician(a: argparse.Namespace) -> None:
                 print("Within the two-hour waiting window: no breach of s.18A.")
     if amount:
         print(f"Statutory compensation (s.18A(d)(1)): NIS {amount}, no proof of damage needed.")
-    print("Not owed if the provider gave notice of postponement by 20:00 the evening before "
-          "(s.18A(c)(3)), or if the delay came from circumstances it could not know of, foresee "
-          "or prevent (s.18A(f)).")
+    print("If the provider postponed by notice no later than 20:00 the evening before, with a new "
+          "agreed time and without pushing the service past its legal deadline (s.18A(c)(3)), "
+          "count from the NEW time instead; a later notice leaves the original time standing. Not owed if the delay came from circumstances the "
+          "provider did not and should not have known of when the time was set, or could not "
+          "foresee, and could not prevent (s.18A(f)).")
     print(FOOTER)
 
 
