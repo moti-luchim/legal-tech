@@ -68,5 +68,19 @@ The timeline holds names, dates and sensitive facts. Use it only for the review.
 Inputs (invented): a claim says the defect appeared in January, an expert report says first seen in March.
 Result: row in table B, issue "start of the event", gap "high", check "contemporaneous photos and logs". No statement about which date is correct.
 
+## Usage example
+User says: "Build a timeline from these four documents and flag contradictions."
+Result: two tables: a chronology with certainty grades and a contradictions table, with no legal conclusion.
+
+## Troubleshooting
+
+### Error: An event has no date
+Cause: The documents mention it without a date
+Solution: List it under undated events, not in the chronology.
+
+### Error: A document is unreadable
+Cause: Scan quality or a cut-off file
+Solution: State which document, do not infer its content, and ask for a better copy.
+
 ## Hebrew version
 The same skill in Hebrew, with the same sections in the same order, is in references/SKILL_HE.md.
