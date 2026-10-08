@@ -77,5 +77,19 @@ Draft excerpt (invented): "Defendant 2 failed to appear. The court finds that De
 Report row: location "discussion, paragraph 4"; defect "service date contradicts the background section"; grade "blocking"; fix "align the date to the proof of service, source needed".
 Status line: "blocking defects remain".
 
+## Usage example
+User says: "Run a QC pass on this draft response to the claim."
+Result: a defect report with the status line "blocking defects remain" and one row for the service-date contradiction.
+
+## Troubleshooting
+
+### Error: The draft or its sources are missing or cut off
+Cause: The file was truncated or only the draft was supplied
+Solution: Say so at the top of the report, check only internal consistency and form, and mark unverified claims.
+
+### Error: Hebrew brackets look reversed
+Cause: Latin text or numbers sit inside bracketed Hebrew
+Solution: Report it as a format and RTL defect and suggest isolating the foreign text.
+
 ## Hebrew version
 The same skill in Hebrew, with the same sections in the same order, is in references/SKILL_HE.md.
