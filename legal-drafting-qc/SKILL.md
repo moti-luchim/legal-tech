@@ -13,7 +13,7 @@ metadata:
 # Legal Drafting QC
 
 ## 1. Legal disclaimer
-This skill supports a human reviewer. It is not legal advice and does not replace a lawyer. It targets Israeli legal drafting. Any citation or legal claim it mentions must be checked against the primary source. A passing result is not approval to file.
+This skill supports a human reviewer. It is not legal advice and does not replace a lawyer. It targets Israeli legal drafting. Any citation or legal claim it mentions must be checked against the primary source. A passing result is not approval to file. Do not rely on its output alone.
 
 ## 2. Purpose
 Review a legal draft and return a structured defect report, graded by severity, with concrete suggested fixes for the user to approve. The skill points out problems. It does not rewrite the draft on its own.
