@@ -69,5 +69,19 @@ Authorities are public, but the draft around them may identify real parties. Sen
 Input: a draft cites "Civil Appeal 111/00 Doe v. Roe" (invented) for the proposition that a notice must be in writing.
 Check: source not available in this session. Row result: "not checked, requires verification at source". Overall: "gate not passed, 1 item open".
 
+## Usage example
+User says: "Verify the authorities in this draft before I send it."
+Result: a control table with one row per authority and the line "gate not passed" if any row is unverified.
+
+## Troubleshooting
+
+### Error: No access to official sources
+Cause: The session has no way to open the official text
+Solution: Return all rows as not checked and list what the reviewer must look up. Do not complete citations from memory.
+
+### Error: A citation is incomplete
+Cause: The draft gives a name without a number or year
+Solution: Mark identifier incomplete and ask for the full citation.
+
 ## Hebrew version
 The same skill in Hebrew, with the same sections in the same order, is in references/SKILL_HE.md.
